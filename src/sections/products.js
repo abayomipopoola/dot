@@ -3,13 +3,13 @@ import { Box, Container, Heading, Text, Image, Link } from 'theme-ui';
 import line from 'assets/roadmap-line.svg';
 const ROAD_MAP_DATA = {
   blockTitle: {
-    title: 'Download our Products',
+    title: 'Product Offering',
     text: 'Read full description of each of our products',
   },
 };
 
 const RoadMap = () => {
-  const { blockTitle, posts } = ROAD_MAP_DATA;
+  const { blockTitle } = ROAD_MAP_DATA;
   const { title, text } = blockTitle;
   return (
     <Box as="section" id="roadmap" sx={styles.section}>
@@ -22,7 +22,7 @@ const RoadMap = () => {
       </Container>
       <Box sx={styles.buttonWrap}>
         <Link sx={styles.button} href="#downloads">
-          DOWNLOAD Products
+          Visit Product Page
         </Link>
       </Box>
     </Box>

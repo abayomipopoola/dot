@@ -12,7 +12,7 @@ const FOOTER_DATA = [
       },
       {
         link: '#',
-        label: 'Careers & Culture',
+        label: 'Careers',
       },
       {
         link: '#',

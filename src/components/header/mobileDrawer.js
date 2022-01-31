@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Button, Box } from 'theme-ui';
+import { Box } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from 'contexts/drawer/drawer.context';
@@ -50,12 +50,6 @@ const MobileDrawer = () => {
                 {label}
               </ScrollLink>
             ))}
-          </Box>
-
-          <Box sx={styles.menuFooter}>
-            <Button variant="primary" sx={styles.button}>
-              Purchase Now
-            </Button>
           </Box>
         </Box>
       </Scrollbars>
