@@ -11,15 +11,14 @@ import CallToAction from 'sections/call-to-action';
 import Layout from 'components/layout';
 
 import 'rc-drawer/assets/index.css';
-import 'react-modal-video/css/modal-video.min.css';
 
 export default function IndexPage() {
   return (
     <StickyProvider>
       <Layout>
         <Seo
-          title="Startup Crypto Classic Landing"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="DOT Financial Inclusion Technologies"
+          description="We are a digital financial services platform serving the next billion in emerging markets starting with Nigeria"
         />
         <Banner />
         <WhyChoose />
