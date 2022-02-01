@@ -31,7 +31,7 @@ const OUR_WALLET_DATA = {
     },
   ],
 };
-const OurWallet = () => {
+const DotPay = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "dot-pay.png" }) {
@@ -45,7 +45,7 @@ const OurWallet = () => {
   `);
   const { title, text, tagLine, options, buttons } = OUR_WALLET_DATA;
   return (
-    <Box as="section" id="downloads">
+    <Box as="section">
       <Container>
         <Flex sx={styles.row}>
           <Box sx={styles.thumbWrap}>
@@ -89,7 +89,7 @@ const OurWallet = () => {
   );
 };
 
-export default OurWallet;
+export default DotPay;
 
 const styles = {
   row: {
@@ -114,7 +114,7 @@ const styles = {
     mx: [null, null, 'auto', 0],
   },
   thumbnail: {
-    maxWidth: '615px',
+    maxWidth: '415px',
     mx: 'auto',
   },
   content: {

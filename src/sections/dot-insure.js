@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Box, Container, Flex, Heading, Text, Link, Image } from 'theme-ui';
 import icon4 from 'assets/wallet-4.svg';
 import icon2 from 'assets/wallet-2.svg';
+
 const OUR_WALLET_DATA = {
   title: 'DOTInsure is the best way to get coverage.',
   text: 'Health is More than Wealth. It is Everything. That’s why we have great Health Insurance Solutions that provide you top coverage at affordable prices, fast and easy.',
@@ -29,7 +30,7 @@ const OUR_WALLET_DATA = {
     },
   ],
 };
-const OurWallet = () => {
+const DotInsure = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "dot-insure.png" }) {
@@ -43,7 +44,7 @@ const OurWallet = () => {
   `);
   const { title, text, tagLine, options, buttons } = OUR_WALLET_DATA;
   return (
-    <Box as="section" id="downloads">
+    <Box as="section">
       <Container>
         <Flex sx={styles.row}>
           <Box sx={styles.thumbWrap}>
@@ -87,7 +88,7 @@ const OurWallet = () => {
   );
 };
 
-export default OurWallet;
+export default DotInsure;
 
 const styles = {
   row: {

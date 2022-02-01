@@ -8,8 +8,12 @@ const MENU_DATA = [
     label: 'Services',
   },
   {
-    path: 'downloads',
-    label: 'Downloads',
+    path: 'products',
+    label: 'Products',
+  },
+  {
+    path: 'careers',
+    label: 'Careers',
   },
   {
     path: 'contact',

@@ -2,9 +2,9 @@ import React from 'react';
 import { Box, Container, Heading, Text, Link } from 'theme-ui';
 const CALL_TO_ACTION_DATA = {
   title: 'Want to talk to our Support team?',
-  text: 'Get quick answers to your questions about DOT Financial Inclusion Technologies',
+  text: 'Get quick answers to your questions about DOT Financial Inclusion Technologies.',
   button: {
-    link: '#',
+    link: 'mailto:info@emprego.holdings',
     label: 'Ask your Question',
   },
 };
@@ -15,7 +15,7 @@ const CallToAction = () => {
       <Container>
         <Heading as="h2">{title}</Heading>
         <Text as="p">{text}</Text>
-        <Link sx={styles.button} href={button.link}>
+        <Link sx={styles.button} href={button.link} target={'_blank'}>
           {button.label}
         </Link>
       </Container>

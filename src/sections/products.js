@@ -1,39 +1,32 @@
 import React from 'react';
-import { Box, Container, Heading, Text, Image, Link } from 'theme-ui';
-import line from 'assets/roadmap-line.svg';
+import { Box, Container, Heading, Text } from 'theme-ui';
 const ROAD_MAP_DATA = {
   blockTitle: {
     title: 'Product Offering',
-    text: 'Read full description of each of our products',
+    text: 'Consise description of each of our products',
   },
 };
 
-const RoadMap = () => {
+const Products = () => {
   const { blockTitle } = ROAD_MAP_DATA;
   const { title, text } = blockTitle;
   return (
-    <Box as="section" id="roadmap" sx={styles.section}>
-      <Image src={line} sx={styles.shapeLine} alt="line image" />
+    <Box as="section" id="products" sx={styles.section}>
       <Container sx={styles.container}>
         <Box sx={styles.blockTitle}>
           <Heading as="h2">{title}</Heading>
           <Text as="p">{text}</Text>
         </Box>
       </Container>
-      <Box sx={styles.buttonWrap}>
-        <Link sx={styles.button} href="#downloads">
-          Visit Product Page
-        </Link>
-      </Box>
     </Box>
   );
 };
 
-export default RoadMap;
+export default Products;
 
 const styles = {
   section: {
-    mb: ['63px', '75px', null, '90px', '110px', null, '140px'],
+    mb: ['63px', '75px', null, '90px', '0', null, '0'],
     position: 'relative',
   },
   shapeLine: {

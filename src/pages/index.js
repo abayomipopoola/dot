@@ -6,7 +6,8 @@ import WhyChoose from 'sections/why-choose';
 import Products from 'sections/products';
 import DotPay from 'sections/dot-pay';
 import DotBank from 'sections/dot-bank';
-import DoTInsure from 'sections/dot-insure';
+import DotInsure from 'sections/dot-insure';
+import Careers from 'sections/careers';
 import CallToAction from 'sections/call-to-action';
 import Layout from 'components/layout';
 
@@ -25,7 +26,8 @@ export default function IndexPage() {
         <Products />
         <DotPay />
         <DotBank />
-        <DoTInsure />
+        <DotInsure />
+        <Careers/>
         <CallToAction />
       </Layout>
     </StickyProvider>
