@@ -6,7 +6,7 @@ import icon4 from 'assets/wallet-4.svg';
 import icon2 from 'assets/wallet-2.svg';
 
 const OUR_WALLET_DATA = {
-  title: 'DOTInsure is the best way to get coverage.',
+  title: 'DotInsure is the best way to get coverage.',
   text: 'Health is More than Wealth. It is Everything. That’s why we have great Health Insurance Solutions that provide you top coverage at affordable prices, fast and easy.',
   tagLine: '',
   options: [

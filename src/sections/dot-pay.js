@@ -7,7 +7,7 @@ import icon2 from 'assets/wallet-2.svg';
 import icon3 from 'assets/wallet-3.svg';
 
 const OUR_WALLET_DATA = {
-  title: 'DOTPay is the fastest-growing and most reliable agency banking platform.',
+  title: 'DotPay is the fastest-growing and most reliable agency banking platform.',
   text: 'Earn a living helping the hundreds of your area people quickly and securely make cash withdrawals, run transfers and pay bills.',
   tagLine: '',
   options: [

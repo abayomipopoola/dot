@@ -18,7 +18,7 @@ export default function IndexPage() {
     <StickyProvider>
       <Layout>
         <Seo
-          title="DOT Financial Inclusion Technologies"
+          title="Dot Financial Inclusion Technologies"
           description="We are a digital financial services platform serving the next billion in emerging markets starting with Nigeria"
         />
         <Banner />

@@ -6,7 +6,7 @@ import icon4 from 'assets/wallet-4.svg';
 import icon2 from 'assets/wallet-2.svg';
 import icon3 from 'assets/wallet-3.svg';
 const OUR_WALLET_DATA = {
-  title: 'DOTBank is an easy and secure digital banking platform.',
+  title: 'DotBank is an easy and secure digital banking platform.',
   text: 'It provides you with a single place to conveniently and securely spend, save and manage your money.',
   tagLine: '',
   options: [

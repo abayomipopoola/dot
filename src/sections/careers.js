@@ -3,13 +3,13 @@ import { Box, Container, Flex, Heading, Text, Link } from 'theme-ui';
 
 const CAREER_DATA = {
   blockTitle: {
-    title: 'DOT Careers',
-    text: 'At DOT, we believe work is more than a desk or to-do list. We believe work can be fulfilling and empower a better life.',
+    title: 'Dot Careers',
+    text: 'At Dot, we believe work is more than a desk or to-do list. We believe work can be fulfilling and empower a better life.',
   },
   posts: [
     {
       title: 'Take charge of your career',
-      text: 'Autonomy and radical responsibility are non-optional conditions for working at DOT.',
+      text: 'Autonomy and radical responsibility are non-optional conditions for working at Dot.',
     },
     {
       title: 'Do what’s never been done',

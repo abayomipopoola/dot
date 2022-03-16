@@ -11,21 +11,21 @@ const WHY_CHOOSE_DATA = {
   posts: [
     {
       icon: icon1,
-      title: 'DOTPay',
+      title: 'DotPay',
       text:
-        'DOTPay helps millions of underbanked Nigerians to access secure and convenient banking services.',
+        'DotPay helps millions of underbanked Nigerians to access secure and convenient banking services.',
     },
     {
       icon: icon2,
-      title: 'DOTBank',
+      title: 'DotBank',
       text:
         'DotBank provides you with a single place to conveniently and securely spend, save and manage your money.',
     },
     {
       icon: icon3,
-      title: 'DOTInsure',
+      title: 'DotInsure',
       text:
-        'DOTInsure provides top coverage at affordable prices, fast and easy.',
+        'DotInsure provides top coverage at affordable prices, fast and easy.',
     },
   ],
 };

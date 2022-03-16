@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 import { Container, Box, Heading, Text, Link } from 'theme-ui';
 import { useStaticQuery, graphql } from 'gatsby';
 const BANNER_DATA = {
-  title: 'Welcome to DOT Financial Inclusion Technologies',
+  title: 'Welcome to Dot Financial Inclusion Technologies',
   text:
     'We are a digital financial services platform serving the next billion in emerging markets starting with Nigeria.',
   button: {
