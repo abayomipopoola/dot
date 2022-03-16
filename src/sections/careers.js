@@ -44,7 +44,7 @@ const Careers = () => {
         </Flex>
       </Container>
       <Box sx={styles.buttonWrap}>
-        <Link sx={styles.button} href="https://careers.dotfi.tech/" target={'_blank'}>
+        <Link sx={styles.button} href="https://jobs.dot.limited/" target={'_blank'}>
             Explore Current Openings
         </Link>
       </Box>
